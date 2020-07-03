@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header h1 {
+    padding-top: 50px;
+    font-size: 48px;
+    font-family: Montserrat;
+}
+
+ {
+    width: 100px; 
+    border: 1px #b7d0e2 solid;
+}
+
+.header p {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 16px;
+    font-family: Montserrat;
+}
+
+.header {
+    text-align: center;
+}
+.container h3 {
+    font-size: 24px;
+    padding-top: 10px;
+    font-family: Montserrat;
+}
+.container fluid img {
+    text-align: center;
+}
+
+.row p {
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 200px;
+}
+
+.container-fluid .img {
+    text-align: center;
+}
+
+.arrow p {
+    font-family: Montserrat;
+    margin-right: 180px;
+    font-size: 16px;
+    margin-top: 0%;
+    color: #ebc154;    
+}
+
+.img p {
+    margin-right: 
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #ebc154;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-size: 16px;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+media(max-width:499px) {
+    #section .container fluid {
+        display: none;
+    }
+}
+
+
